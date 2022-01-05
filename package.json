@@ -1,0 +1,29 @@
+{
+  "name": "js-fp-exercises",
+  "version": "0.0.1",
+  "description": "Functional Programming exercises in JavaScript",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DmitryBarskov/js-fp-exercises.git"
+  },
+  "keywords": [
+    "functional",
+    "functional",
+    "programming",
+    "exercise",
+    "exercises"
+  ],
+  "author": "Dmitry Barskov <dmitry.barskov64@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DmitryBarskov/js-fp-exercises/issues",
+    "email": "dmitry.barskov64@gmail.com"
+  },
+  "homepage": "https://github.com/DmitryBarskov/js-fp-exercises#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}
