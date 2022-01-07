@@ -1,49 +1,12 @@
-/*
- * For a detailed explanation regarding each configuration property, visit:
- * https://jestjs.io/docs/configuration
- */
-
-module.exports = {
-  // All imported modules in your tests should be mocked automatically
-  // automock: false,
-
-  // Stop running tests after `n` failures
-  // bail: 0,
-
-  // The directory where Jest should store its cached dependency information
-  // cacheDirectory: "/private/var/folders/wc/wq4g0q_j3_7g9n1czmgnwvn80000gp/T/jest_dy",
-
-  // Automatically clear mock calls, instances and results before every test
-  // clearMocks: false,
-
-  // Indicates whether the coverage information should be collected while executing the test
-  // collectCoverage: false,
-
-  // An array of glob patterns indicating a set of files for which coverage information should be collected
-  // collectCoverageFrom: undefined,
-
-  // The directory where Jest should output its coverage files
-  // coverageDirectory: undefined,
-
-  // An array of regexp pattern strings used to skip coverage collection
-  // coveragePathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
-
-  // Indicates which provider should be used to instrument code for coverage
-  coverageProvider: "v8",
-
-  // A list of reporter names that Jest uses when writing coverage reports
-  // coverageReporters: [
-  //   "json",
-  //   "text",
-  //   "lcov",
-  //   "clover"
-  // ],
-
-  // An object that configures minimum threshold enforcement for coverage results
-  // coverageThreshold: undefined,
-
+export default {
+  transform: {
+    '\\.jsx?$': 'babel-jest'
+  },
+  testMatch: [
+    "**/*.test.js"
+  ],
+  testPathIgnorePatterns: ['/node_modules/'],
+  cacheDirectory: '.cache/jest',
   // A path to a custom dependency extractor
   // dependencyExtractor: undefined,
 
