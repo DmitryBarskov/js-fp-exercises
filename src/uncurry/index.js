@@ -1,3 +1,3 @@
-const uncurry = (f) => {};
+const uncurry = () => {};
 
 export default uncurry;
