@@ -28,3 +28,6 @@ Use `npm test` to run the test suite
 or `npm test -- src/<exercise>` to run specific exercise.
 
 ## Index
+
+0. [uncurry](src/uncurry)
+0. [curry](src/curry)
