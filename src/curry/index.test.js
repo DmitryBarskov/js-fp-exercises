@@ -9,14 +9,16 @@ describe.skip("curry", () => {
     expect(typeof increment).toBe("function");
   });
 
-  it("returns a value after applying all arguments", () => {
-    expect(increment(2)).toBe(3);
-  });
+  describe("curried function", () => {
+    it("returns a value after applying the rest of arguments", () => {
+      expect(increment(2)).toBe(3);
+    });
 
-  it("can curry an already curried function", () => {
-    const three = curry(increment, 2);
-    expect(typeof three).toBe("function");
-    expect(three()).toBe(3);
+    it("can be curried again", () => {
+      const three = curry(increment, 2);
+      expect(typeof three).toBe("function");
+      expect(three()).toBe(3);
+    });
   });
 
   it("handles multiple arguments", () => {
