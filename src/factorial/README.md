@@ -1,5 +1,8 @@
 # Factorial
 
+Write a factorial function. `factorial(n) = 1 * 2 * ... * n`,
+e. g. `factorial(4) = 1 * 2 * 3 * 4 = 24`.
+
 ```javascript
 factorial(0); //=> 1
 factorial(1); //=> 1
