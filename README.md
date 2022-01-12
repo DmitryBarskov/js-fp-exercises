@@ -29,5 +29,6 @@ or `npm test -- src/<exercise>` to run specific exercise.
 
 ## Index
 
-0. [uncurry](src/uncurry)
+0. [factorial](src/factorial)
 0. [curry](src/curry)
+0. [uncurry](src/uncurry)
