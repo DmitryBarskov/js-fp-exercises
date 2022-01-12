@@ -11,5 +11,6 @@
   },
   "plugins": ["jest"],
   "rules": {
+    "quotes": ["error", "double", { "avoidEscape": true }]
   }
 }

@@ -1,4 +1,4 @@
-import nil from './nil.js';
+import nil from "./nil.js";
 
 const empty = (list) => list === nil;
 
