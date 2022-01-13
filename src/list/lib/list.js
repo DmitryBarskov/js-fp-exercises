@@ -1,5 +1,5 @@
-import pair from './pair.js';
-import nil from './nil.js';
+import pair from "./pair.js";
+import nil from "./nil.js";
 
 const list = (...args) => {
   if (args.length === 0) return nil;

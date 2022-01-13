@@ -1,4 +1,4 @@
-import first from './first.js';
+import first from "./first.js";
 
 const head = (list) => first(list);
 
