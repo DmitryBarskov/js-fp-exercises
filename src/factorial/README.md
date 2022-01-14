@@ -5,7 +5,7 @@ e. g. `factorial(4) = 1 * 2 * 3 * 4 = 24`.
 
 You should use recursion instead of loops.
 
-__Small hint: absence of `return` statement guarantees having no loops.__
+_Small hint: absence of `return` statement guarantees having no loops._
 
 ```javascript
 factorial(0); //=> 1
