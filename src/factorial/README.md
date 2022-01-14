@@ -2,6 +2,8 @@
 
 Write a factorial function. `factorial(n) = 1 * 2 * ... * n`,
 e. g. `factorial(4) = 1 * 2 * 3 * 4 = 24`.
+You should use recursion instead of loops.
+Small hint: absence of `return` statement guarantees having no loops.
 
 ```javascript
 factorial(0); //=> 1
