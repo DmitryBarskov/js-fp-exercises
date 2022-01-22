@@ -2,7 +2,7 @@ import { list, nil } from "../lib";
 
 import map from ".";
 
-describe("map", () => {
+describe.skip("map", () => {
   const increment = (x) => x + 1;
 
   it("returns nil when given nil", () => {

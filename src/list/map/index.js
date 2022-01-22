@@ -1,11 +1,5 @@
-import { head, tail, pair, empty } from "../lib";
+import { } from "../lib";
 
-const map = (f, list) => {
-  if (empty(list)) {
-    return list;
-  }
-
-  return pair(f(head(list)), map(f, tail(list)));
-};
+const map = () => {};
 
 export default map;
