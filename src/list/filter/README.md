@@ -1,6 +1,6 @@
 # List filter
 
-Write a function to select items of a list which matches the given predicate.
+Write a function to select items of a list which match the given predicate.
 Given a predicate (function that returns `true` or `false`) select only values
 that meet the criteria.
 If there is a criteria of text string presence that accepts only strings with
