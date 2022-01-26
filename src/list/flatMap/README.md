@@ -13,5 +13,7 @@ _Small hint: absence of `return` statement guarantees having no loops._
 
 ```javascript
 flatMap(x => list(x, x), list(1, 2, 3)); //=> list(1, 1, 2, 2, 3, 3)
-flatMap(x => , list(0, 1, 2, 3, 4)); //=>
+
+flatMap(x => list(list(x), list(x)), list(0, 1, 2));
+//=> list( list(0), list(0), list(1), list(1), list(2), list(2) )
 ```
